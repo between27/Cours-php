@@ -7,14 +7,6 @@
 </head>
 <body>
 
-
-
-
-
-
-
-
-
 <section>
  <h1>Formulaire</h1>
  <form action = "td3.php" method = "POST">
@@ -23,7 +15,7 @@
  <p>Entrez votre prénom et un entier : </p>
  <label>NOM : </label>
  <input type="text" name="nom"
-placeholder="entrez votre nom" />
+placeholder="entrez votre nom" value ='<?= $valeurs['nom'] ?>'/>
 <br /><br />
 <label>Prénom : </label>
  <input type="text" name="prenom"
